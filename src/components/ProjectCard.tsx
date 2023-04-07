@@ -3,7 +3,7 @@ import Button from './Button'
 
 const ProjectCard = () => {
   return (
-    <div className='p-[10px] mb-[20px] bg-[#fff] border rounded-md'>
+    <div className='p-[10px] bg-[#fff] border rounded-md'>
         <div>
             <img src={HomePage} alt='' className='w-[100%]'/>
         </div>

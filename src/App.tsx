@@ -1,6 +1,7 @@
 import Header from './components/Header'
-import SideBar from './components/SideBar'
 import Portfolio from './components/Portfolio'
+import Education from './components/Education'
+import Experience from './components/Experience'
 import { useRef } from 'react'
 
 function App() {
@@ -36,6 +37,12 @@ function App() {
         </div>
         <div ref={portfolio}>
           <Portfolio />
+        </div>
+        <div ref={experience}>
+          <Experience />
+        </div>
+        <div ref={academics}>
+          <Education />
         </div>
         </div>
     </div>
