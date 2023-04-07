@@ -14,7 +14,7 @@ const index = () => {
         <div className='flex flex-col gap-[4rem] mt-[2rem]'>
 
         <div className='w-[80%]'>
-          <div className='flex justify-between border border-[#08fdd8] py-[1rem] px-[1rem] text-[#fff] rounded-md'>
+          <div className={`flex justify-between border border-[#08fdd8] py-[1rem] px-[1rem] text-[#fff] rounded-md ${expand1 && 'border-dashed'}`}>
           <p>Junior Engineeing</p>
           {expand1 ?  <p onClick={()=> setExpand1(!expand1)}><MdExpandLess /></p>:<p onClick={()=> setExpand1(!expand1)}><MdExpandMore /></p>}
           </div>
@@ -40,7 +40,7 @@ const index = () => {
         </div>}
         </div>
         <div className='w-[80%]'>
-        <div className='flex justify-between border border-[#08fdd8] py-[1rem] px-[1rem] text-[#fff] rounded-md'>
+        <div className={`flex justify-between border border-[#08fdd8] py-[1rem] px-[1rem] text-[#fff] rounded-md ${expand2 && 'border-dashed'}`}>
         <p>Internships</p>
         {expand2 ?  <p onClick={()=> setExpand2(!expand2)}><MdExpandLess /></p>:<p onClick={()=> setExpand2(!expand2)}><MdExpandMore /></p>}
         </div>
@@ -66,7 +66,7 @@ const index = () => {
         </div>}
         </div>
         <div className='w-[80%]'>
-        <div className='flex justify-between border border-[#08fdd8] py-[1rem] px-[1rem] text-[#fff] rounded-md'>
+        <div className={`flex justify-between border border-[#08fdd8] py-[1rem] px-[1rem] text-[#fff] rounded-md ${expand3 && 'border-dashed'}`}>
         <p>Volunteerships</p>
         {expand3 ?  <p onClick={()=> setExpand3(!expand3)}><MdExpandLess /></p>:<p onClick={()=> setExpand3(!expand3)}><MdExpandMore /></p>}
         </div>
