@@ -1,18 +1,24 @@
-import HomePage from '../assets/HomePage.png'
 import Button from './Button'
 
-const ProjectCard = () => {
+interface ProjectCardTypes{
+  projectImg: string,
+  projectDescription: string,
+  style?: string,
+  content: string
+}
+
+const ProjectCard = ({ projectImg, projectDescription, style, content }: ProjectCardTypes) => {
   return (
     <div className='p-[10px] bg-[#fff] border rounded-md'>
-        <div>
-            <img src={HomePage} alt='' className='w-[100%]'/>
+        <div className='h-[200px]'>
+            <img src={projectImg} alt='' className='w-[100%]'/>
         </div>
-        <div className='flex justify-center'>
-            <p>MERN stack Application designed to simplify the process of estimating the required number of trailers. All estimates are based on the average of the five previous weeks, or specific days of the week. With app's charts, you can easily identify seasonal orders spikes, and be prepared for the growing demand.</p>
+        <div className='flex justify-center mt-[1.2rem] text-[#696969]'>
+            <p>{projectDescription}</p>
         </div>
         <div className='flex justify-evenly'>
-            <Button buttonContent='Live'/>
-            <Button buttonContent='Github Repo'/>
+            <Button buttonContent='Live' customStyle='w-[40%] cursor-pointer'/>
+            <Button buttonContent={content} customStyle={`w-[40%] cursor-pointer ${style}`}/>
         </div>
     </div>
   )

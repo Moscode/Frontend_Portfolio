@@ -1,11 +1,11 @@
 interface buttonContentType{
     buttonContent:string
-    width?: string
+    customStyle?: string
 }
 
-const Button = ({buttonContent, width}: buttonContentType) => {
+const Button = ({buttonContent, customStyle}: buttonContentType) => {
   return (
-    <div className={`border border-[#08fdd8] rounded-sm py-[4px] px-[10px] w-[40%] text-center my-[4px]`}>
+    <div className={`border border-[#08fdd8] rounded-sm py-[4px] px-[10px] text-center my-[4px] ${customStyle}`}>
         {buttonContent}
     </div>
   )
