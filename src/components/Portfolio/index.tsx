@@ -1,7 +1,7 @@
-import ContactInfo from '../../assets/ContactInfo-App (1).png'
-import Pokemon from '../../assets/Pokemon-Game (1).png'
-import Subcription from '../../assets/Sass-App (1).png'
-import Checkroomie from '../../assets/checkroomie (2).png'
+import ContactInfo from '../../assets/ContactInfo-App.png'
+import Pokemon from '../../assets/Pokemon-Game.png'
+import Subcription from '../../assets/Sass-App.png'
+import Checkroomie from '../../assets/checkroomie.png'
 
 import ProjectCard from '../ProjectCard'
 
