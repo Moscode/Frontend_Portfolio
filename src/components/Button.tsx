@@ -1,7 +1,7 @@
 interface buttonContentType{
     buttonContent:string
     customStyle?: string
-    link: string
+    link?: string
 }
 
 const Button = ({buttonContent, customStyle, link}: buttonContentType) => {
