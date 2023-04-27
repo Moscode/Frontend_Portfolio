@@ -5,9 +5,9 @@ import { MdExpandLess } from 'react-icons/md'
 import HNG from '../../assets/Hng.jpg'
 
 const index = () => {
-  const [expand1, setExpand1] = useState(false)
-  const [expand2, setExpand2] = useState(false)
-  const [expand3, setExpand3] = useState(false)
+  const [expand1, setExpand1] = useState(true)
+  const [expand2, setExpand2] = useState(true)
+  const [expand3, setExpand3] = useState(true)
   return (
     <div>
         <h1 className='text-[#08fdd8] text-[3rem] mt-[2rem]'>Experience</h1>

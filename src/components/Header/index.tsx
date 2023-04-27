@@ -1,11 +1,11 @@
 import React, { useEffect, useLayoutEffect, useRef } from 'react'
-import ProfilePic from '../../assets/Moses.png'
-import gsap from 'gsap'
+//import ProfilePic from '../../assets/Moses.png'
+/*import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 gsap.registerPlugin(ScrollTrigger)
-
+*/
 const Header = () =>{
-    let heroText = useRef(null)
+   /* let heroText = useRef(null)
     let headerContainer = useRef(null)
     let heroProfile = useRef(null)
 
@@ -25,17 +25,17 @@ const Header = () =>{
           
           return () => ctx.revert();
         
-    }, [])
+    }, []) */
+
     
     return(
         <div className=''>
-        <div ref={headerContainer} className='h-[100vh] flex justify-center items-center flex-col leading-none'>
-            <div ref={heroText}>
-                <h1 className="text-[5rem] font-bold text-[#fff]">
-                Hi,<br/>
-                I'm Moses,<br/>
-                Frontend Engineer
+        <div className='h-[100vh] flex justify-center items-center flex-col'>
+            <div className='animate-heading2'>
+                <h1 className="text-[5rem] font-bold text-[#fff] animate-heading">
+                I'm Moses Odunosho
                 </h1>
+                <h2 className='text-right text-[#08fdd8] font-bold text-[3rem] animate-heading1'>Frontend Engineer</h2>
             </div>
         </div>
         </div>
