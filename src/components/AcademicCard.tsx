@@ -3,8 +3,8 @@ import React from 'react'
 const AcademicCard = () => {
   return (
     <div>
-    <div className='w-[80%] bg-[#fff] grid gap-y-[30px] rounded'>
-    <div className='bg-[#181818] flex text-[#e9e9e9] px-[20px] py-[10px] justify-between text-[1.5rem]'>
+    <div className='md:w-[80%] bg-[#fff] grid gap-y-[30px] rounded'>
+    <div className='bg-[#181818] flex flex-col text-center md:flex-row text-[#e9e9e9] px-[20px] py-[10px] justify-between text-[1.5rem]'>
         <div>
             <h1>University of Lagos</h1>
             <h3>BSc in Applied Physics Electronics</h3>

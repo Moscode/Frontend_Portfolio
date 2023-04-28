@@ -20,21 +20,20 @@ function App() {
   }
 
   return (
-    <div className='flex'>
-      <div className='w-[20%]'>
-      <div className='bg-[#181818] p-[10px] fixed'>
-        <h1 className='text-[#fff] font-bold text-[2rem] cursor-pointer' onClick={() => scrollToSection(header)}>Moscode</h1>
-        <div className='h-[100vh] flex flex-col justify-center'>
-            <div className=''>
-                <p className='text-[#4f4f4f] font-medium text-[2rem] pb-[2rem] cursor-pointer' onClick={() => scrollToSection(portfolio)}>Portfolio</p>
-                <p className='text-[#4f4f4f] font-medium text-[2rem] pb-[2rem] cursor-pointer' onClick={() => scrollToSection(experience)}>Experience</p>
-                <p className='text-[#4f4f4f] font-medium text-[2rem] pb-[2rem] cursor-pointer'  onClick={() => scrollToSection(academics)}>Academics</p>
-                <p className='text-[#4f4f4f] font-medium text-[2rem] pb-[2rem] cursor-pointer'  onClick={() => scrollToSection(contact)}>Contact</p>
-            </div>
+    <div className='md:flex flex-col mt-[4rem] md:mt-[0rem]'>
+      <div className='w-[100%] md:w-[20%]'>
+      <div className='w-[100%] bg-[#181818] md:p-[10px] fixed md:block justify-evenly py-[10px] px-[5px] top-0'>
+        <h1 className='text-[#fff] font-bold md:text-[2rem] cursor-pointer hidden' onClick={() => scrollToSection(header)}>Moscode</h1>
+        <div className='md:h-[100vh] flex md:flex-col md:justify-center justify-evenly'>
+                <p className='text-[#fff] font-bold md:text-[2rem] cursor-pointer md:hidden' onClick={() => scrollToSection(header)}>MO.</p>
+                <p className='pl-[20px] text-[#4f4f4f] font-medium md:text-[2rem] md:pb-[2rem] cursor-pointer' onClick={() => scrollToSection(portfolio)}>Portfolio</p>
+                <p className='text-[#4f4f4f] font-medium md:text-[2rem] md:pb-[2rem] cursor-pointer' onClick={() => scrollToSection(experience)}>Experience</p>
+                <p className='text-[#4f4f4f] font-medium md:text-[2rem] md:pb-[2rem] cursor-pointer'  onClick={() => scrollToSection(academics)}>Academics</p>
+                <p className='text-[#4f4f4f] font-medium md:text-[2rem] md:pb-[2rem] cursor-pointer'  onClick={() => scrollToSection(contact)}>Contact</p>
         </div>
-    </div>
       </div>
-        <div className='w-[75%]'>
+      </div>
+        <div className='mx-auto w-[90%] md:w-[75%]'>
         <div ref={header}>
           <Header />
         </div>
