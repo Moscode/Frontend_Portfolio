@@ -29,15 +29,13 @@ const Header = () =>{
 
     
     return(
-        <div>
-        <div className='h-[100vh] flex justify-center items-center flex-col'>
-            <div className='animate-heading2'>
-                <h1 className="sm:text-[1.8rem] md:text-[2.5rem] lg:text-[4rem] font-bold text-[#fff] animate-heading">
+        <div className='h-[100vh] flex justify-center items-center flex-col' id="main">
+            <div className='animate-heading2' id="main2">
+                <h1 className="sm:text-[1.8rem] md:text-[2.5rem] lg:text-[4rem] font-bold text-[#fff] animate-heading" id="head">
                 I'm Moses Odunosho
                 </h1>
                 <h2 className='text-right text-[#08fdd8] font-bold lg:text-[3rem] animate-heading1'>Frontend Engineer</h2>
             </div>
-        </div>
         </div>
     )
 }
