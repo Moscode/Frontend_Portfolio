@@ -35,7 +35,7 @@ const index = () => {
         {expand2 ?  <p onClick={()=> setExpand2(!expand2)}><MdExpandLess /></p>:<p onClick={()=> setExpand2(!expand2)}><MdExpandMore /></p>}
         </div>
         {expand2 && 
-           <ExperienceCard image={hng} role={"Backend Developer Intern (NodeJS)"} stack={["NodeJS", "ExpressJS", "MongoDB"]} company={"HNG Internship 8"} date={"FAug 2021 - Oct 2021"} location={"Remote"} responsibility={"I was part of the team that developed and documented API endpoints for the frontend team to work with for quick development of the chess plugin that we built for the workspace project.Generated GitHub issues as the tickets that was distributed among developers.Worked closely with highly skilled backend engineers in other to get theideas and distribution of tickets running as quickly as possible.Handled the Swagger documentation of the endpoints to facilitate easy implementation for the frontend team."}/>
+           <ExperienceCard image={hng} role={"Backend Developer Intern (NodeJS)"} stack={["NodeJS", "ExpressJS", "MongoDB"]} company={"HNG Internship 8"} date={"Aug 2021 - Oct 2021"} location={"Remote"} responsibility={"I was part of the team that developed and documented API endpoints for the frontend team to work with for quick development of the chess plugin that we built for the workspace project.Generated GitHub issues as the tickets that was distributed among developers.Worked closely with highly skilled backend engineers in other to get theideas and distribution of tickets running as quickly as possible.Handled the Swagger documentation of the endpoints to facilitate easy implementation for the frontend team."}/>
         }
         </div>
         <div className='md:w-[100%]'>

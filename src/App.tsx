@@ -61,7 +61,7 @@ function App() {
         <p className="text-[#fff] font-bold lg:text-[2rem] cursor-pointer lg:hidden flex justify-end" onClick={() => handleToggleOpen()}><AiOutlineMenu /></p>
         }
         </div>
-        <div className={`lg:h-[100vh] flex flex-col lg:justify-center justify-between h-[100%] hover:text-[#08fdd8] ${toggleOpen ? 'mt-[2rem] gap-y-[2rem] lg:gap-y-[0px] lg:mt-[0px]':'hidden lg:flex'}`}>
+        <div className={`lg:h-[100vh] flex flex-col lg:justify-center justify-between h-[100%] hover:text-[#08fdd8] ${toggleOpen ? 'mt-[2rem] gap-y-[2rem] md:items-center lg:gap-y-[0px] lg:mt-[0px]':'hidden lg:flex'}`}>
                 <p className='text-[#4f4f4f] font-medium lg:text-[2rem] lg:pb-[2rem] cursor-pointer hover:text-[#08fdd8]' onClick={() => scrollToSection(portfolio)}>Portfolio</p>
                 <p className='text-[#4f4f4f] lg:font-medium lg:text-[2rem] lg:pb-[2rem] cursor-pointer hover:text-[#08fdd8]' onClick={() => scrollToSection(experience)}>Experience</p>
                 <p className='text-[#4f4f4f] lg:font-medium lg:text-[2rem] lg:pb-[2rem] cursor-pointer hover:text-[#08fdd8]'  onClick={() => scrollToSection(academics)}>Academics</p>
