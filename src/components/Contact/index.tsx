@@ -4,9 +4,9 @@ import Button from '../Button'
 const index = () => {
   return (
     <div>
-      <h1 className='text-[#08fdd8] text-[3rem] mt-[2rem]'>Contact</h1>
+      <h1 className='text-[#08fdd8] text-[1.5rem] lg:text-[3rem] mt-[2rem]'>Contact</h1>
       <form className='mb-[2rem] mt-[2rem]'>
-        <div className='lg:w-[50%] grid gap-y-[1.2rem]'>
+        <div className='lg:w-[60%] grid gap-y-[1.2rem]'>
         <div className='flex gap-x-2'>
           <input placeholder='Name' className='inline-block relative w-full bg-[#2b2b2b] p-4 placeholder-[#8d8d8d] text-[#8d8d8d] focus:outline-none'/>
           <input placeholder='Email' className='w-full bg-[#2b2b2b] p-4 placeholder-[#8d8d8d] text-[#8d8d8d] focus:outline-none'/>

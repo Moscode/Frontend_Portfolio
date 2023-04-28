@@ -10,7 +10,7 @@ import ProjectCard from '../ProjectCard'
 const Portfolio = () => {
   return (
     <div>
-        <h1 className='text-[#08fdd8] text-[3rem]'>My Portfolio</h1>
+        <h1 className='text-[#08fdd8] text-[1.5rem] lg:text-[3rem]'>My Portfolio</h1>
         <div className='grid md:grid-cols-2 gap-[4rem] mt-[2rem]'>
             <ProjectCard projectImg={Checkroomie}
             stack={["React", "Tailwind CSS", "TypeScript"]}
