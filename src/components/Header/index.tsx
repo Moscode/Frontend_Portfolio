@@ -32,10 +32,10 @@ const Header = () =>{
         <div>
         <div className='h-[100vh] flex justify-center items-center flex-col'>
             <div className='animate-heading2'>
-                <h1 className="text-[2rem] md:text-[5rem] font-bold text-[#fff] animate-heading">
+                <h1 className="text-[2rem] lg:text-[5rem] font-bold text-[#fff] animate-heading">
                 I'm Moses Odunosho
                 </h1>
-                <h2 className='text-right text-[#08fdd8] font-bold md:text-[3rem] animate-heading1'>Frontend Engineer</h2>
+                <h2 className='text-right text-[#08fdd8] font-bold lg:text-[3rem] animate-heading1'>Frontend Engineer</h2>
             </div>
         </div>
         </div>
