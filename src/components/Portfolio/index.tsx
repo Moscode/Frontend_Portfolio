@@ -19,7 +19,7 @@ const Portfolio = () => {
             stack={["React", "Tailwind CSS", "TypeScript"]}
             projectDescription='Coderunblock is a platfrom that helps connect less experience software developers to industry experts with the aim of facilitating pairprogramming and one-off mentorships. It is a free service so it is based on experts availabilities.' content='Github Repo' live="https://coderunblock.netlify.app" repo="https://github.com/Moscode/coderunblock"/>
             <ProjectCard projectImg={SwapBook} 
-            stack={["React", "Tailwind CSS", "TypeScript"]}
+            stack={["React", "CSS", "TypeScript"]}
             projectDescription='SwapBook is a web application that connects readers that are willing to swap their hard copy books with one another but it is currently optimized for mobile view. The desktop view is coming soon and complete features is coming soon.' content='Github Repo' live="https://swapbook.netlify.app" repo="https://github.com/Moscode/BookSwap"/>
             <ProjectCard projectImg={ContactInfo} 
             stack={["React", "Tailwind CSS", "TypeScript"]}

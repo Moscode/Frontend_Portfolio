@@ -19,7 +19,7 @@ const index = () => {
 
         <div className='md:w-[100%]'>
           <div className={`flex justify-between border border-[#08fdd8] py-[1rem] px-[1rem] text-[#fff] rounded-md ${expand1 && 'border-dashed'}`}>
-          <p>Junior Engineeing</p>
+          <p>Full-time Frontend Engineer</p>
           {expand1 ?  <p onClick={()=> setExpand1(!expand1)}><MdExpandLess /></p>:<p onClick={()=> setExpand1(!expand1)}><MdExpandMore /></p>}
           </div>
           {expand1 && 
