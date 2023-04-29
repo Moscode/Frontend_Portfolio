@@ -54,7 +54,7 @@ function App() {
     <div className='lg:flex lg:flex-row flex-col mt-[4rem] lg:mt-[0rem]'>
       <div className='w-[100%] lg:w-[20%]'>
       <div className='w-[100%] lg:w-[20%] lg:p-[10px] bg-[#181818] fixed lg:block justify-evenly py-[10px] px-[5px] top-0'>
-        <div className='flex justify-center items-center'>
+        <div className='flex justify-between items-center lg:justify-center'>
         <h1 className='text-[#fff] font-bold lg:text-[2rem] cursor-pointer' ref={logo} onClick={() => scrollToSection(header)}>Moscode</h1>
         {toggleOpen ? 
         <p className="text-[#fff] font-bold lg:text-[2rem] cursor-pointer lg:hidden flex justify-end" onClick={() => handleToggleOpen()}><AiOutlineClose /></p>:
